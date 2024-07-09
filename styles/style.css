@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: "Aviano Copper W00 Regular";
+    src: url("https://db.onlinewebfonts.com/t/d534a18e1e40efbd6bb0804e29402918.eot");
+    src: url("https://db.onlinewebfonts.com/t/d534a18e1e40efbd6bb0804e29402918.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/d534a18e1e40efbd6bb0804e29402918.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/d534a18e1e40efbd6bb0804e29402918.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/d534a18e1e40efbd6bb0804e29402918.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/d534a18e1e40efbd6bb0804e29402918.svg#Aviano Copper W00 Regular")format("svg");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(https://fonts.gstatic.com/s/kanit/v15/nKKV-Go6G5tXcraQI2GwZoREDFs.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@tailwind utilities;
+
+
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerfoto {
+    background-image: url('/image/close-up-businessman-with-digital-tablet.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header#headerfoto {
+    width: 100%;
+    height: 38rem;
+}
+
+#estilizacaologo {
+    background: linear-gradient(to top, #062e74 45%, #2e9ec6 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#servicos img{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+#insta {
+    background: linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80, #E3F08D, #A2EFEB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+#whats {
+    color: #25D366;
+    font-size: 2rem;
+}
+
+iframe#map {
+    width: 100%;
+    height: 400px;
+    border-radius: 2rem;
+}
+
