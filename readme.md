@@ -11,4 +11,4 @@ tailwind xs, lg, 2xl, qualuquer uma ele acabava mudando todo o site mesmo nao se
 Final:
 - Contudo, consegui terminar e atingir o resultado que eu desejava fazendo pesquisas, a propria documentacao do tailwind
 canal do Marco Bruno - para de chutar CSS, e consultas de HTML semântico.
-- O que ficou faltando a responsividade por ploblemas.
+- O que ficou faltando foi a responsividade por ploblemas no tailwind.
